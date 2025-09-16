@@ -1,4 +1,4 @@
-ABC.exe:Helloworld.o
-  gcc -o ABC.exe Helloworld.o
-Helloworld.o:Helloworld.c
-  gcc -c file
+Helloworld.exe: Helloworld.o
+  gcc -o Helloworld.exe Helloworld.o
+Helloworld.o: Helloworld.c
+  gcc -c Helloworld.c
